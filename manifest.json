@@ -1,0 +1,19 @@
+{
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
+  "manifest_version": 2,
+
+  "name": "Pop",
+  "description": "This extension allows you to easily pop text to your android device.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Pop some text to your phone."
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "storage"
+  ]
+}
